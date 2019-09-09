@@ -1,6 +1,6 @@
 include .env
 
-MODULE = $(shell go list -m)
+MODULE := $(shell go list -m)
 
 BIN := $(PWD)/bin
 export GOBIN := $(BIN)
